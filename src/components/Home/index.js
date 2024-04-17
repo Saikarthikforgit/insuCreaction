@@ -40,11 +40,9 @@ class Home extends React.Component {
               journey, we embrace the unknown, savoring the joy of discovery and
               the freedom of exploration.
             </p>
-            <Link to="/products">
+            <Link to="/cart" className="shop-now-button">
               <button type="button" className="shop-now-button">
-                <Link to="/cart" className="shop-now-button">
               Explore Now
-            </Link>
               </button>
             </Link>
           </div>
