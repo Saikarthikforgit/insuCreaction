@@ -1,0 +1,87 @@
+/* index.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  max-width: 862px;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.shop-now-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #0056b3;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 862px;
+  max-height: 391px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.left-arrow,
+.right-arrow {
+  cursor: pointer;
+
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.icon2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,59 @@
+.cart-container {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu-item {
+  list-style: none;
+  position: relative; /* Ensure position is relative for absolute positioning */
+}
+
+.menu-item > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-item > button:focus {
+  outline: none;
+}
+
+.sub-menu {
+  display: none;
+  padding-left: 20px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black; /* Initial background color */
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li {
+  color: white; /* Initial text color */
+}
+
+.sub-menu li:hover {
+  background-color: white; /* Hover background color */
+  color: black; /* Hover text color */
+}
+
+.righticon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
