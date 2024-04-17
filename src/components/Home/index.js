@@ -42,7 +42,9 @@ class Home extends React.Component {
             </p>
             <Link to="/products">
               <button type="button" className="shop-now-button">
-                Explore Now
+                <Link to="/cart" className="shop-now-button">
+              Explore Now
+            </Link>
               </button>
             </Link>
           </div>
